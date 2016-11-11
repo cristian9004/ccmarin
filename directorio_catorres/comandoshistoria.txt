@@ -1,0 +1,47 @@
+
+  516  ls
+  517  ssh-keygen -t rsa -b 4096 -C "ps4cristiantorr@gmail.com"
+  518  eval "$(shh-agent -s)"
+  519  eval "$(ssh-agent -s)"
+  520  ssh-add ~/.ssh/id_rsa
+  521  pbcopy < ~/.ssh/id_rsa.pub
+  522  cd Sites/
+  523  ls
+  524  clear
+  525  git clone git@github.com:smd-adrian/git_course.git
+  526  ls
+  527  cd git_course/
+  528  ls
+  529  ls
+  530  git clone -b rama_catorres git@github.com:smd-adrian/git_course.git
+  531  git checkout -b rama_catorres
+  532  git status
+  533  git clone -b rama_catorres git@github.com:smd-adrian/git_course.git
+  534  git brach
+  535  git branch
+  536  git clone -b master git@github.com:smd-adrian/git_course.git
+  537  git status
+  538  git status
+  539  git branch
+  540  mkdir directorio_catorres
+  541  ls
+  542  cd directorio_catorres/
+  543  touch index.html
+  544  ls
+  545  sudo nano index.html
+  546  cd ..
+  547  git status
+  548  git add directorio_catorres/ git_course/
+  549  git status
+  550  git commit -m "Se agrega directorio y archivos en la nueva rama_catorres"
+  551  git push origin rama_catorres
+  552  sudo git push origin rama_catorres
+  553  sudo git push origin rama_catorres
+  554  sudo nano index.html ls
+  555  cd ..
+  556  ls
+  557  cd git_course/
+  558  ls
+  559  cd directorio_catorres/
+  560  ls
+  561  history > comandoshistoria.txt
